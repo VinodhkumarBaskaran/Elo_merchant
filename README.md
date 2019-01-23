@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+#Descrption of the Business problem:
+Imagine being hungry in an unfamiliar part of town and getting restaurant recommendations served up, based on your personal preferences, at just the right moment. The recommendation comes with an attached discount from your credit card provider for a local place around the corner!
 
-You can use the [editor on GitHub](https://github.com/VinodhkumarBaskaran/Elo_merchant/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Right now, Elo, one of the largest payment brands in Brazil, has built partnerships with merchants in order to offer promotions or discounts to cardholders. But do these promotions work for either the consumer or the merchant? Do customers enjoy their experience? Do merchants see repeat business? Personalization is key.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Elo has built machine learning models to understand the most important aspects and preferences in their customers’ lifecycle, from food to shopping. But so far none of them is specifically tailored for an individual or profile. This is where you come in.
 
-### Markdown
+# Evaluation:
+Root Mean Squared Error (RMSE)
+Submissions are scored on the root mean squared error. RMSE is defined as:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+RMSE=1n∑i=1n(yi−y^i)2−−−−−−−−−−−−√,
+where y^ is the predicted loyalty score for each card_id, and y is the actual loyalty score assigned to a card_id.
 
-```markdown
-Syntax highlighted code block
+# Link 
+https://vinodhkumarbaskaran.github.io/Elo_merchant/.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/VinodhkumarBaskaran/Elo_merchant/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# RMSE:
+As of now RMSE score : 3.84
