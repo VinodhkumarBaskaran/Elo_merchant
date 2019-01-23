@@ -17,3 +17,5 @@ https://vinodhkumarbaskaran.github.io/Elo_merchant/.
 
 # RMSE:
 As of now RMSE score : 3.84
+
+--- Working for improvement ---
